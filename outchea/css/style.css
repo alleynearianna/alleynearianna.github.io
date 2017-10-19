@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+	font-family: 'Playfair Display', serif;	
+	margin: auto;
+}
+
+nav ul {
+	font-family: 'Playfair Display', serif;	
+	margin: auto;
+	position: relative;
+	text-align: center;
+	background-color: white;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px 30px;
+}
+
+nav ul li a{
+	color: #e2ac2c;
+	text-decoration: none;
+}
+
+header {
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 200%;
+	padding: 1px 10px 1px 10px;
+}
+
+.title {
+	color: #ffffff;
+	font-size: 300%;
+}
+
+.top {
+	background-image: url('../img/sky.jpg');
+	background-size: cover;
+	background-position: no-repeat;
+	height: 665px;
+	width: 100%;
+}
+
+
+.quote {
+	font-size: 150%;
+	width: 400px;
+	text-align: center;
+	color: #ffffff;
+	margin-left: 390px;
+	padding-bottom: 70px;
+}
+
+.meaning {
+	text-align: justify;
+	font-size: 120%;
+	width: 200px;
+	color: white;
+	margin-top: 10px;
+	margin-left: 500px;
+	font-style: italic;
+}
+
+.meaning2 {
+	text-align: justify;
+	font-size: 120%;
+	width: 250px;
+	color: white;	
+	margin-left: 500px;
+	margin-top: 20px;
+	font-style: italic;
+}
+
+.meanings {
+	background-color: #e2ac2c;
+	width: 300px;
+	height: 400px;
+}
+
+
+.bigben {
+	background-image: url('../img/mewithbigben.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 25%;
+	height: 300px;
+	float: left;
+	position: relative;
+	padding: 2em 2em;
+	margin-top: 55px;
+	margin-left: 160px;
+	z-index: 1;
+}
+
+.trees{
+	background-image: url('../img/mewithtrees.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 25%;
+	height: 300px;
+	float: right;
+	position: relative;
+	padding: 2em 2em;
+	margin-top: 120px;
+	margin-right: 150px;
+	position: relative;
+	z-index: 3;
+}
+
+.who {
+	background-color: #00582A;
+	font-size: 120%;
+	width: 250px;
+	height: 30px;
+	margin: 450px auto 0px auto;
+	color: white;
+	text-align: left;
+	padding: 10px 40px;
+	z-index: 5;
+}
+
+.bodytext {
+	font-size: 90%;
+	width: 600px;
+	margin: 0px auto 0px auto;
+	text-align: justify;
+	color: #00582A;
+	padding: 50px;
+}
+
+.travel {
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-top-color: #e2ac2c;
+	border-bottom-color: #e2ac2c;
+	text-align: center;
+	margin-bottom: 80px;
+	font-size: 200%;
+	font-style: normal;
+}
+
+.tip1 {
+	background-image: url('../img/lisbon.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 300px;
+	position: relative;
+	margin-bottom: 0px;
+	margin-left: 40px;	
+}
+
+.tip2 {
+	background-image: url('../img/barcelona.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 130%;
+	height: 300px;
+	position: relative;
+	margin-bottom: 0px;
+	margin-left: 470px;	
+	margin-top: -55px;
+	padding-right: 50px;
+}
+
+.tip3 {
+	background-image: url('../img/chance.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 130%;
+	height: 300px;
+	position: relative;
+	margin-bottom: 0px;
+	margin-left: 180px;	
+}
+
+
+.tip4 {
+	background-image: url('../img/starbucks.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 130%;
+	height: 300px;
+	position: relative;
+	margin-bottom: 0px;
+	margin-left: 70px;
+	margin-top: -80px;
+}
+
+.tip5 {
+	background-image: url('../img/berlin.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 130%;
+	height: 300px;
+	position: relative;
+	margin-bottom: 0px;
+	margin-left: 580px;
+}
+
+.tiptitle1 {
+	background-color: #e2ac2c;
+	width: 150px;
+	color: white;
+	text-align: center;
+	font-size: 130%;
+	margin-left: 400px;
+	margin-top: -45px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.tiptitle2 {
+	background-color: #034220;
+	width: 350px;
+	color: white;
+	text-align: center;
+	font-size: 130%;
+	margin-left: 150px;
+	margin-top: 30px;
+	padding-right: 150px;
+	padding-bottom: 50px;
+	padding-top: 10px;
+
+}
+
+.tiptitle3 {
+	background-color: #88b9d7;
+	width: 250px;
+	color: white;
+	text-align: center;
+	font-size: 130%;
+	margin-left: 350px;
+	margin-top: 30px;
+}
+
+.tiptitle4 {
+	background-color: #b57d49;
+	width: 350px;
+	color: white;
+	text-align: center;
+	font-size: 130%;
+	margin-left: 250px;
+	margin-top: 30px;
+	padding-bottom: 70px;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+
+.tiptitle5 {
+	background-color: #868379;
+	width: 250px;
+	color: white;
+	text-align: center;
+	font-size: 130%;
+	margin-left: 200px;
+	margin-top: -150px;
+	margin-bottom: 130px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.tipmeaning1 {
+	background-color: #e2ac2c;
+	color: white;
+	width: 300px;
+	text-align: justify;
+	padding: 35px 200px;
+	padding-left: 500px;
+	font-size: 115%;
+	position: relative;
+}
+
+.tipmeaning2 {
+	background-color: #034220;
+	color: white;
+	width: 350px;
+	text-align: justify;
+	padding: 25px 550px;
+	padding-left: 40px;
+	font-size: 115%;
+	position: relative;
+}
+
+.tipmeaning3 {
+	background-color: #88b9d7;
+	color: white;
+	width: 400px;
+	text-align: justify;
+	padding: 25px 400px;
+	padding-left: 250px;
+	font-size: 115%;
+	position: relative;
+}
+
+.tipmeaning4 {
+	background-color: #b57d49;
+	color: white;
+	width: 500px;
+	text-align: justify;
+	padding: 25px 400px;
+	padding-left: 350px;
+	font-size: 115%;
+	position: relative;
+}
+
+.tipmeaning5 {
+	background-color: #868379;
+	color: white;
+	width: 300px;
+	text-align: justify;
+	padding: 25px 500px;
+	padding-left: 170px;
+	font-size: 115%;
+	position: relative;
+}
+
+footer {
+	font-size: 50%;
+	background-color: white;
+	text-align: center;
+	color: black;
+	padding: 1rem 5px 0px 0px;
+}
